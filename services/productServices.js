@@ -57,11 +57,11 @@ const products = [
     category: "Freshwater",
   },
 ];
-
+// return als products
 export function getAllProducts() {
   return products;
 }
-
+// returns single product
 export function getProductById(id) {
   return products.find((product) => product.id === id);
 }
